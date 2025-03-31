@@ -12,12 +12,14 @@
 
 :root{
     font-size: 62.5%;
-    --bg-body: #C5E4E7;
-    --bg-main: #fff;
+    --jagged-ice: #C5E4E7;
+    --white: #fff;
     --greyish-turquoise: #5E7A7D;
     --squeeze: #F3F9FA;
     --sherpa-blue: #00474B;
     --topaz: #26C2AE;
+    --regent-gray: #7F9D9F;
+
 
 }
 body {
@@ -41,7 +43,7 @@ main{
 .info {
     margin-inline: .8rem;
 
-    
+
   div{
     margin-bottom: 3.2rem;
   }
@@ -116,6 +118,50 @@ main{
         }
     }
         
+
+.results{
+    background: var(--sherpa-blue);
+    border-radius: 1.5rem;
+    padding: 4rem 2.4rem 2.4rem;
+    
+
+    .amount,
+    .total{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.4rem;
+
+
+        p{
+            color: var(--white);
+            font-weight: 700;
+
+            span{
+                color: var(--regent-gray);
+                font-size: 1.3rem;
+            }
+        }
+        strong{
+            font-size: 3.2rem;
+            color: var(--topaz)
+        }
+        button {
+            background: var(--topaz);
+            color: var(--sherpa-blue);
+            font-size: 2rem;
+            text-transform: uppercase;
+            width: 100%;
+            border: none;
+            border-radius: .5rem;
+            font-weight: 700;
+            padding-block: .9rem;
+            
+        }
+
+    }
+
+}
 
 
 
